@@ -7,7 +7,7 @@ public class Calculadora {
 		 String opcion;
 		 Integer resultado = null;
 		 do{
-		 System.out.println("Ingrese su operación /n 1 para sumar /n 2 pararestar /n 3 para multiplicar /n 4 para dividir");
+		 System.out.println("Ingrese su operación /n 1 para dividir /n 2 para multiplicar /n 3 para restar /n 4 para sumar");
 		 opcion = teclado.next();
 		 }while(Integer.parseInt(opcion) < 1 && Integer.parseInt(opcion) > 4);
 		 System.out.println("Ingrese el primer numero");
@@ -15,13 +15,13 @@ public class Calculadora {
 		 System.out.println("Ingrese el segundo numero");
 		 b = teclado.next();
 		 switch (Integer.parseInt(opcion))
-		 { case 1: resultado = Integer.parseInt(a) + Integer.parseInt(b);
+		 { case 1: resultado = Integer.parseInt(a) / Integer.parseInt(b);
 		           break;
-		   case 2: resultado = Integer.parseInt(a) - Integer.parseInt(b);
+		   case 2: resultado = Integer.parseInt(a) * Integer.parseInt(b);
 		           break;        
-		   case 3: resultado = Integer.parseInt(a) * Integer.parseInt(b);
+		   case 3: resultado = Integer.parseInt(a) - Integer.parseInt(b);
 		           break;
-		   case 4: resultado = Integer.parseInt(a) / Integer.parseInt(b);
+		   case 4: resultado = Integer.parseInt(a) + Integer.parseInt(b);
 		           break; 
 		 }
 
