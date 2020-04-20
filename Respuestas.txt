@@ -1,0 +1,32 @@
+4. Dividir el grupo en dos y realizar las siguientes acciones
+El primer grupo cambiara el if-else por un switch y el segundo grupo cambiara el orden de las
+opciones, por ejemplo cambiando que el 3 sea para la suma y el 1 para multiplicar
+
+5. Realizar un commit y push al repositorio remoto y responder:
+¿Qué sucedió cuando se intento hacer el segundo push?
+R - La concola no nos permite enviar los cambios del segundo push.
+
+fabricio yucra@DESKTOP-EJGUEBS MINGW64 ~/Practicas (master)
+$ git push -u origin master
+To https://github.com/Fabriyucra/tp-git-pb.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Fabriyucra/tp-git-pb.git'
+
+¿Qué acciones hay que tomar antes de realizar el push?
+R- La consola nos recomienda actualizar nuestro repositorio local al estado actual del repositorio remoto. 
+Por que este sufrio un cambio que no tenemos.
+
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ 
+ 
+¿Qué estrategia propondrían para evitar esta situación?
+
+R- Crear un control de las versiones que envian al repositorio remoto, cada participante del proyecto, 
+pudiendo ser identificados facilmente con un nombre.
+
+6. En el repositorio local ejecutar el siguiente comando git checkout -b develop
+
+¿Qué acción realiza el parámetro -b?
