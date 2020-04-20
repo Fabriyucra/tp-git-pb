@@ -3,12 +3,13 @@ import java.util.Scanner;
 public class Calculadora {
 	
 	public static void main(String[] args) {
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 		 Scanner teclado=new Scanner(System.in);
 		 String a;
 		 String b;
 		 String opcion;
 		 Integer resultado = null;
+		 
 		 do{
 		 System.out.println("Ingrese su operación /n 1 para dividir /n 2 para multiplicar /n 3 para restar /n 4 para sumar");
 		 opcion = teclado.next();
@@ -26,19 +27,19 @@ public class Calculadora {
 		           break;
 		   case 4: resultado = Integer.parseInt(a) + Integer.parseInt(b);
 		           break; 
-		 }
+		 
 
 	   System.out.println("El resultado es " + resultado.toString());
 		 }
-}
-=======
+=======*/
 		Integer a = 0;
 		Integer b = 0;
 		Integer opcion;
 		Integer resultado = 0;
+			
+		Scanner teclado = new Scanner(System.in);
 		
-		Scanner teclado= new Scanner(System.in);	
-		do {
+				do {
 			
 		System.out.println("Ingrese su operación \n 1 para sumar \n 2 para restar \n 3 para multiplicar \n 4 para dividir");
 		opcion = teclado.nextInt();
@@ -87,4 +88,4 @@ public class Calculadora {
 		}	while(opcion < 1 || opcion > 4);
 	}
 }
->>>>>>> d71a83ea0b7e80ac15f7388a816e92452bdf7aca
+//>>>>>>> d71a83ea0b7e80ac15f7388a816e92452bdf7aca
