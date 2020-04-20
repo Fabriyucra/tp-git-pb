@@ -30,7 +30,7 @@ pudiendo ser identificados facilmente con un nombre.
 6. En el repositorio local ejecutar el siguiente comando git checkout -b develop
 
 ¿Qué acción realiza el parámetro -b?
-R- Crea una nueva rama branch. una rama de develop 
+R- Crea una nueva rama branch. Tambien nos posiciona directo en la rama develop 
 
 fabricio yucra@DESKTOP-EJGUEBS MINGW64 ~/Practicas (master)
 $ git checkout -b develop
