@@ -30,3 +30,26 @@ pudiendo ser identificados facilmente con un nombre.
 6. En el repositorio local ejecutar el siguiente comando git checkout -b develop
 
 ¿Qué acción realiza el parámetro -b?
+R- Crea una nueva rama branch. una rama de develop 
+
+fabricio yucra@DESKTOP-EJGUEBS MINGW64 ~/Practicas (master)
+$ git checkout -b develop
+Switched to a new branch 'develop'
+
+fabricio yucra@DESKTOP-EJGUEBS MINGW64 ~/Practicas (develop)
+$
+fabricio yucra@DESKTOP-EJGUEBS MINGW64 ~/Practicas (develop)
+$ git branch --all
+* develop
+  master
+  remotes/origin/master
+(estamos parados en la rama develop)
+
+7. Crear ramas utilizando la recientemente creada develop utilizando los nombres de los desarrolladores
+
+8. Modificar los archivos revirtiendo cambios o realizando mejoras, siempre procurando editar los
+métodos y líneas. Ejemplo: separar cada acción (sumar, restar, multiplicar y dividir) en métodos
+
+9. Realizar en el repositorio remoto un merge request
+¿Qué diferencias notaron en el proceso?
+¿Qué estrategia utilizarían para evitar conflictos?
