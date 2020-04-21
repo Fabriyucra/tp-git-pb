@@ -50,6 +50,15 @@ $ git branch --all
 8. Modificar los archivos revirtiendo cambios o realizando mejoras, siempre procurando editar los
 métodos y líneas. Ejemplo: separar cada acción (sumar, restar, multiplicar y dividir) en métodos
 
-9. Realizar en el repositorio remoto un merge request
+9. Realizar en el repositorio remoto un merge (request)
+
 ¿Qué diferencias notaron en el proceso?
+
+R - Entendenmos que la accion que pedian era hacer un merge de una rama (en este caso rama Leandro) con la rama
+master, en este caso el merge junto directamente las ramas, resolviendo los conflictos por si mismo actualizando 
+por orden de commit.
+
 ¿Qué estrategia utilizarían para evitar conflictos?
+
+R - Podemos usar el merge request desde el repositorio remoto, que nos permite pedir la autorización de los demas 
+colaboradores del proyecto para poder hacer un merge de una rama con la rama master.  
